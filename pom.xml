@@ -20,10 +20,10 @@
         <id>nexus</id>
         <url>http://35.154.224.128:8081/repository/tomcat//</url>
    </repository>
-    <snapshotrepository>
+    <repository>
         <id>nexus</id>
         <url>http://35.154.224.128:8081/repository/tomcat_snapshot/</url>
-    </snapshotrepository>
+    </repository>
   </distributionManagement>
   <build>
     <finalName>java-tomcat-maven-example</finalName>

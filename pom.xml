@@ -17,13 +17,15 @@
   </dependencies>
   <distributionManagement>
     <repository>
-        <id>nexus</id>
+         <id>nexus</id>
+         <name>Amazon_release</name>
         <url>http://35.154.224.128:8081/repository/tomcat//</url>
    </repository>
-    <repository>
+    <snapshotRepository>
         <id>nexus</id>
+        <name>Amazon_snapshot</name>
         <url>http://35.154.224.128:8081/repository/tomcat_snapshot/</url>
-    </repository>
+    </snapshotRepository>
   </distributionManagement>
   <build>
     <finalName>java-tomcat-maven-example</finalName>
